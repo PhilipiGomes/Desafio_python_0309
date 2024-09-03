@@ -5,7 +5,7 @@ print[0:5]
 
 lista.sort()
 lista.sort(reverse=True)
-print(f'lista ordena {lista}')
+print(f'lista ordena {lista} ')
 
 lista.remove(8)
 lista.pop(7)
