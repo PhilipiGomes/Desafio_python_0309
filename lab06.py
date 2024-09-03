@@ -45,7 +45,7 @@ notas.append(numero_usuario5)
 quantidade_notas = len(notas)
 
 #sum irá somar todos os valores da lista 
-suma = sum(notas)
+soma = sum(notas)
 
 media = soma / quantidade_notas 
 
@@ -55,13 +55,13 @@ print(f'a soma de todas as notas: {soma}')
 print(f'A media: {media}')
 
 #TODO: Situação
-Aprovado >= 7
-Recuperação >= 5
-Reprovado
+aprovado >= 7
+recuperacao >= 5
+reprovado
 
 if media >= 7:
     print(f'aprovado com media {media}')
- elif media >=5:
+elif media >=5:
     print(f'recuperação com media {media}')
 else:
     print(f'reprovado com média{media}')

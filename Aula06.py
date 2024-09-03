@@ -1,4 +1,4 @@
-Lista = {1,54,7,7,645,87,32,45,3}
+lista = {1,54,7,7,645,87,32,45,3}
 
 print[0]
 print[0:5]
@@ -11,21 +11,21 @@ lista.remove(8)
 lista.pop(7)
 del lista[2:5]
 
-nome = 'bernardo'
+nome = 'Thalita'
 lista.append(nome)
 print(lista)
 
-lista.insert(1,'cordeiro')
+lista.insert(1,'Vitória')
 print(lista)
 
-lista[2] = 'bernardo'
+lista[2] = 'Thalita'
 print(lista)
 
-print('cordeiro' in lista)
+print('Vitória' in lista)
 
-if 'bernardo' in lista:
+if 'Thalita' in lista:
     #esse bloco só será executado quando a condição é true
-   print('sim, o bernardo está na lista')
+   print('sim, a Thalita está na lista')
 else:
     #esse bloco só será executado quando a condição é false
-    print('não, o bernardo não está na lista')
+    print('não, a Thalita não está na lista')
