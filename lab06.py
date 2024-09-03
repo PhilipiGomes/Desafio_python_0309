@@ -54,11 +54,13 @@ print(f'a quantidade de noats: {quantidade_notas}')
 print(f'a soma de todas as notas: {soma}')
 print(f'A media: {media}')
 
+'''
 #TODO: Situação
 aprovado >= 7
 recuperacao >= 5
 reprovado
 
+'''
 if media >= 7:
     print(f'aprovado com media {media}')
 elif media >=5:
