@@ -1,5 +1,3 @@
-lista = []
-
 num1 = input('Digito o primeiro número: ')
 num1 = int(num1)
 num2 = input('Digite o segundo número: ')
